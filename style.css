@@ -1,10 +1,16 @@
 @import url("style/header.css");
+@import url("style/banner.css");
+
 :root{
-    --cor-de-fundo: #EBECEE;
-    --branco: #ffffff;
+    --cor-de-fundo: #ced4e0;
+    --branco: #a7ddd9e1;
     --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal:"Poppins"
+    --preto: #000000;
+    --azul-degrade: linear-gradient(97.54deg, #42857f 35.49%, #fbfeff 165.37%);
+    --font-family: "Poppins";
+    --azul: #521500;
+    --fonte-secundario: "Josefin Sans";
+
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -13,3 +19,12 @@ body{
     font-weight: 400;
 }
 
+.banner__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+
+}
